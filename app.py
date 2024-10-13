@@ -62,7 +62,7 @@ if st.button("Get my answer"):
                 response = assistant_agent.invoke({"input": question}, {"callbacks": [st_cb]})
                 st.session_state.messages.append({'role': 'assistant', 'content': response})
                 st.write('### Response:')
-                st.success(response)
+                st.markdown(response.get('output'))
             except Exception as e:
                 st.error(f"An error occurred: {e}")
     else:
