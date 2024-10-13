@@ -1,7 +1,6 @@
 import os
 import streamlit as st
 from langchain_groq import ChatGroq
-from langchain.prompts import PromptTemplate
 from langchain.agents import initialize_agent
 from langchain.agents.agent_types import AgentType
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
