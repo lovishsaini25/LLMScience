@@ -1,0 +1,12 @@
+python-dotenv
+langchain_groq
+langchain_community
+langchain_core
+streamlit
+arxiv
+wikipedia
+numexpr
+duckduckgo-search
+langgraph
+scipy
+numpy
